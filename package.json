@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "balu_travel_agency",
   "private": true,
   "type": "module",
@@ -43,5 +44,23 @@
     "typescript": "^5.8.3",
     "vite": "^6.3.3",
     "vite-tsconfig-paths": "^5.1.4"
+=======
+  "name": "untitled",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.1",
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.0"
+>>>>>>> 491c3671c00bcd21d58a8131a3e77a4e9e9918f2
   }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {type RouteConfig, route, layout} from "@react-router/dev/routes";
 
 export default [
@@ -8,3 +9,8 @@ export default [
     ])
 
 ] satisfies RouteConfig;
+=======
+import { type RouteConfig, index } from "@react-router/dev/routes";
+
+export default [index("routes/home.tsx")] satisfies RouteConfig;
+>>>>>>> 491c3671c00bcd21d58a8131a3e77a4e9e9918f2

@@ -6,7 +6,11 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
+<<<<<<< HEAD
 import * as Sentry from "@sentry/react-router";
+=======
+
+>>>>>>> 491c3671c00bcd21d58a8131a3e77a4e9e9918f2
 import type { Route } from "./+types/root";
 import "./app.css";
 
@@ -57,7 +61,10 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
         ? "The requested page could not be found."
         : error.statusText || details;
   } else if (import.meta.env.DEV && error && error instanceof Error) {
+<<<<<<< HEAD
     Sentry.captureException(error);
+=======
+>>>>>>> 491c3671c00bcd21d58a8131a3e77a4e9e9918f2
     details = error.message;
     stack = error.stack;
   }
@@ -73,4 +80,8 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
       )}
     </main>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 491c3671c00bcd21d58a8131a3e77a4e9e9918f2
